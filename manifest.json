@@ -1,0 +1,25 @@
+{
+  "name": "胡萝卜须儿 - 个人作品集",
+  "short_name": "胡萝卜须儿",
+  "description": "胡萝卜须儿的个人作品集网站，展示项目、技能和联系方式",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1220",
+  "theme_color": "#0B1220",
+  "icons": [
+    {
+      "src": "/img/icon.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/img/icon.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ],
+  "categories": ["personal", "portfolio", "development"],
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "orientation": "portrait"
+}

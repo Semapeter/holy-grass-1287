@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# 网站地图
+Sitemap: https://example.com/sitemap.xml
+
+# 禁止爬取开发相关文件
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /*.config.js
+Disallow: /*.config.ts
+
+# 允许爬取静态资源
+Allow: /img/
+Allow: /js/
+Allow: /css/
+
+# 爬取延迟建议
+Crawl-delay: 2
