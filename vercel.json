@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/bili-api/:path*",
-      "destination": "https://api.bilibili.com/:path*"
+      "destination": "/api/bili/:path*"
     }
   ]
 }
