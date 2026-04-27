@@ -2,15 +2,5 @@
   "build": {
     "command": "npm run build",
     "output": "dist"
-  },
-  "functions": {
-    "node-functions": {
-      "routes": [
-        {
-          "pattern": "/bili-api/**",
-          "function": "bili-api"
-        }
-      ]
-    }
   }
 }
